@@ -1,38 +1,42 @@
-# sv
+# Svelte Docs Kit
+motive - to make docs based components - reuse it
+problem i faced : i need to build docs from scratch, sidebar, toc, copy markdown, open in chat, heading, sub heading, preview code, preview multiple files etc...
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+so to solve above problem i am building this project - to solve my own problem
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```sh
-# create a new project in the current directory
-npx sv create
+Bhide Svelte
 
-# create a new project in my-app
-npx sv create my-app
-```
 
-## Developing
+Docs kit Inspirations
+1. shadcn svelte extra blocks
+2. [motion core](motion-core.dev)
+3. Fumadocs
+4. Polar sh Docs
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+and many more from internet
+---
 
-```sh
-npm run dev
+Components to Build
+1. Previous Next
+2. Heading - H1, H2
+3. Sidebar - footer stuff with slide animation
+4. One Component in all projects - network stuff
+5. TOC - table of contents
+6. Code Component
+- file name
+- shiki integration - vesper theme - best is on sv-animate site
+- copy code
+- multi files view : vertical list and horizontal list
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+7. Preview Component
+8. Copy Markdown
+9. Open in Chat
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+FumaDocs Inspiration
+- Autotype Table
+- File Structure
+- GitHub Info
+- Zoomable Image
+- Table of Content - I love animation

@@ -11,13 +11,16 @@ importers:
       mode-watcher:
         specifier: ^1.1.0
         version: 1.1.0(svelte@5.46.1)
+      svelte-sonner:
+        specifier: ^1.0.7
+        version: 1.0.7(svelte@5.46.1)
     devDependencies:
       '@internationalized/date':
         specifier: ^3.10.1
         version: 3.10.1
       '@lucide/svelte':
-        specifier: ^0.554.0
-        version: 0.554.0(svelte@5.46.1)
+        specifier: ^0.544.0
+        version: 0.544.0(svelte@5.46.1)
       '@shikijs/langs':
         specifier: ^3.20.0
         version: 3.20.0
@@ -302,8 +305,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@lucide/svelte@0.554.0':
-    resolution: {integrity: sha512-CM6wLEH8uk3WBpC42t8R0hF7SlQrsYEL6qGuXdB99xKZwKglpWmX5XgYu7FIYOCBYOyC1rm4dNhIe6uF9pOXqw==}
+  '@lucide/svelte@0.544.0':
+    resolution: {integrity: sha512-9f9O6uxng2pLB01sxNySHduJN3HTl5p0HDu4H26VR51vhZfiMzyOMe9Mhof3XAk4l813eTtl+/DYRvGyoRR+yw==}
     peerDependencies:
       svelte: ^5
 
@@ -967,6 +970,11 @@ packages:
     peerDependencies:
       svelte: ^5.7.0
 
+  runed@0.28.0:
+    resolution: {integrity: sha512-k2xx7RuO9hWcdd9f+8JoBeqWtYrm5CALfgpkg2YDB80ds/QE4w0qqu34A7fqiAwiBBSBQOid7TLxwxVC27ymWQ==}
+    peerDependencies:
+      svelte: ^5.7.0
+
   runed@0.29.2:
     resolution: {integrity: sha512-0cq6cA6sYGZwl/FvVqjx9YN+1xEBu9sDDyuWdDW1yWX7JF2wmvmVKfH+hVCZs+csW+P3ARH92MjI3H9QTagOQA==}
     peerDependencies:
@@ -1034,6 +1042,11 @@ packages:
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
+
+  svelte-sonner@1.0.7:
+    resolution: {integrity: sha512-1EUFYmd7q/xfs2qCHwJzGPh9n5VJ3X6QjBN10fof2vxgy8fYE7kVfZ7uGnd7i6fQaWIr5KvXcwYXE/cmTEjk5A==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte-toolbelt@0.10.6:
     resolution: {integrity: sha512-YWuX+RE+CnWYx09yseAe4ZVMM7e7GRFZM6OYWpBKOb++s+SQ8RBIMMe+Bs/CznBMc0QPLjr+vDBxTAkozXsFXQ==}
@@ -1376,7 +1389,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lucide/svelte@0.554.0(svelte@5.46.1)':
+  '@lucide/svelte@0.544.0(svelte@5.46.1)':
     dependencies:
       svelte: 5.46.1
 
@@ -2023,6 +2036,11 @@ snapshots:
       esm-env: 1.2.2
       svelte: 5.46.1
 
+  runed@0.28.0(svelte@5.46.1):
+    dependencies:
+      esm-env: 1.2.2
+      svelte: 5.46.1
+
   runed@0.29.2(svelte@5.46.1):
     dependencies:
       esm-env: 1.2.2
@@ -2099,6 +2117,11 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
+
+  svelte-sonner@1.0.7(svelte@5.46.1):
+    dependencies:
+      runed: 0.28.0(svelte@5.46.1)
+      svelte: 5.46.1
 
   svelte-toolbelt@0.10.6(@sveltejs/kit@2.49.2(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.46.1)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.46.1)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.46.1):
     dependencies:
