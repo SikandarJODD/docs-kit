@@ -22,7 +22,6 @@
         title: "Home",
         url: "/",
         icon: CommandIcon,
-        isActive: true,
         items: [
           {
             title: "Home",
@@ -46,7 +45,6 @@
         title: "Components",
         url: "#",
         icon: BotIcon,
-        isActive: true,
         items: [
           {
             title: "Preview Playground",
